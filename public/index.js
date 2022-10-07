@@ -85,58 +85,7 @@ async function main() {
 
 
 
-    /* AVERAGE CHART */
-    const averagePriceChartCanvas = document.querySelector('#average-price-chart')
     
-    // function average(data) {
-    //     const values = data.datasets[0].data;
-    //     return values.reduce((a, b) => a + b, 0) / values.length;
-    // }
-
-    // const DATA_COUNT = 8;
-    // const MIN = 10;
-    // const MAX = 100;
-    
-    // Utils.srand(8);
-    
-    // //const labels = [];
-    // for (let i = 0; i < DATA_COUNT; ++i) {
-    //   labels.push('' + i);
-    // }
-    
-    // const average = {count: DATA_COUNT, min: MIN, max: MAX};
-    
-    
-
-    // const annotation = {
-    //     type: 'line',
-    //     borderColor: 'black',
-    //     borderDash: [6, 6],
-    //     borderDashOffset: 0,
-    //     borderWidth: 3,
-    //     label: {
-    //       enabled: true,
-    //       content: (ctx) => 'Average: ' + average(ctx).toFixed(2),
-    //       position: 'end'
-    //     },
-    //     scaleID: 'y',
-    //     value: (ctx) => average(ctx)
-    //   };
-
-    //   const averageChart = new Chart(averagePriceChartCanvas, {
-    //     type: 'line',
-    //     data: { labels: Object.keys(data), datasets: [{
-    //         label: 'Average Price',
-    //         data: average
-    //     }]},
-    //     options: {
-    //         scales: {
-    //             y: {
-    //                 beginAtZero: true
-    //             }
-    //         }
-    //     }
-    // });
 }
 main()
 // my api key 4f0046390dff441d97cede907e0c6916
